@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         centralBtn.setOnClickListener {
-            println("central click!!!")
+            var central = Central(this)
+            central.scan()
         }
     }
 }

@@ -10,6 +10,7 @@ import android.content.Context
 import android.os.ParcelUuid
 import java.util.*
 
+// ref: https://qiita.com/anzai_k/items/131373caa0a6294efdd4
 class Peripheral : AdvertiseCallback {
 
     val SERVICE_UUID = "CF0DFF25-8BB9-46DA-8692-76B18C2B1282"
